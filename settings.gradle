@@ -1,0 +1,3 @@
+rootProject.name='dogusUni'
+include ':app'
+include ':sos'
