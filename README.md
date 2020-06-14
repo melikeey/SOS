@@ -6,6 +6,10 @@ This utility library
 
 Bu kütüphane sizin kod yazarken ihtiyacınız olan tüm utility classları toplamayı hedeflemektedir
 
+## Kurulum
+
+Kurulum için modülu bilgisayarınıza indirdikten sonra projenizde modülü import ederek kullanmaya başlayabilirsiniz.
+
 ## Kullanım 
 
 Kullanım oldukça basittir. app seviyesindeki build.gradle'a modülümüzü bağladıktan sonra SOS static class'ı yardımıyla 
