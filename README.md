@@ -1,5 +1,5 @@
 
-![alt text](https://im.haberturk.com/2020/03/11/ver1583915850/2609960_87f666e88ebe2aa3873b3db8ccf52c79.jpg)
+![alt text](https://glob.zoznam.sk/wp-content/uploads/2019/03/drive-44378_1280-1170x780.jpg)
 
 
 
