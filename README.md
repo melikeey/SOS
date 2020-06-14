@@ -1,6 +1,9 @@
 
-![alt text](https://glob.zoznam.sk/wp-content/uploads/2019/03/drive-44378_1280-1170x780.jpg)
 
+<p align="center">
+  <img src="https://glob.zoznam.sk/wp-content/uploads/2019/03/drive-44378_1280-1170x780.jpg" width="350" title="hover text">
+  <img src="your_relative_path_here_number_2_large_name" width="350" alt="accessibility text">
+</p>
 
 
 # SOS
