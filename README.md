@@ -13,7 +13,8 @@ Bu yardımcı bir kütüphanedir.
   * [Modül kullanımı](#sdk-kullan-m-)
   * [Kurulum](#kurulum)
   * [Kullanım](#kullan-m)
-
+  * [Destek](#destek)
+  * [Lisans](#lisans)
 
 ## Modül kullanımı 
 
@@ -43,4 +44,13 @@ Modülü bağlamak için build.gradle'a aşağıdaki kodu ekleyiniz;
 
 
 
+## Destek
+
 Herhangi bir problemde lütfen issue açmaktan çekinmeyiniz. 
+
+## Lisans
+
+Melikeey ©
+
+
+
