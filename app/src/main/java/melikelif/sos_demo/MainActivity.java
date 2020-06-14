@@ -36,14 +36,36 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Button btnSendEmail = findViewById(R.id.btn_send_email);
+        Button btnSendEmail = findViewById(R.id.btn_send_push);
         btnSendEmail.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-               startActivity(SoS.getEmailIntent(new String[]{"test@gmail.com"}, "My Email ", "This is my email", "tomail@gmail.com", "Send email"));
+                SoS.showNotification(getApplicationContext(), "title", "text", MainActivity.class);
+
+            //  startActivity(SoS.getEmailIntent(new String[]{"test@gmail.com"}, "My Email ", "This is my email", "tomail@gmail.com", "Send email"));
             }
         });
+
+        final Button btn_camel  = findViewById(R.id.btn_camel);
+        btn_camel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+               btn_camel.setText(SoS.fromCamelCaseToSnakeCase(btn_camel.getText().toString()));
+            }
+        });
+
+        final Button btnCutMe = findViewById(R.id.btn_cut_me);
+        btnCutMe.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                btnCutMe.setText(SoS.splitString(btnCutMe.getText().toString(), "-")[0]
+
+                        + "    " + SoS.splitString(btnCutMe.getText().toString(), "-")[1] );
+
+            }
+        });
+
     }
 
 }

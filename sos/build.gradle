@@ -2,6 +2,32 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
+ext {
+    bintrayRepo = 'sos'
+    bintrayName = 'sos'
+
+    publishedGroupId = 'com.sos.melikeey'
+    libraryName = 'sos'
+    artifact = 'sos.com'
+
+    libraryDescription = 'SDK for Visilabs\' analytics and target modules.'
+
+    siteUrl = 'http://google.com/'
+    gitUrl = 'http://google.com/'
+
+    libraryVersion = '1.0.0'
+
+    developerId = 'melikeey2020'
+    developerName = 'Melike Yıldırım'
+    developerEmail = 'gfburak19@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
+
+
 android {
     compileSdkVersion 29
     buildToolsVersion "29.0.3"
@@ -35,3 +61,6 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 }
+
+apply from: 'bintray-install.gradle'
+apply from: 'bintray-upload.gradle'

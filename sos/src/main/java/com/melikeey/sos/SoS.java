@@ -1,5 +1,7 @@
 package com.melikeey.sos;
 
+import android.app.NotificationManager;
+import android.app.PendingIntent;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -13,6 +15,7 @@ import android.widget.Toast;
 
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AlertDialog;
+import androidx.core.app.NotificationCompat;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -258,5 +261,20 @@ public class SoS {
 
     public static String fromCamelCaseToSnakeCase(String key) {
         return key.replaceAll("(.)(\\p{Upper})", "$1_$2").toLowerCase();
+    }
+
+    public static void showNotification(Context context, String title, String text, Class nextclass){
+
+        NotificationCompat.Builder mBuilder =   new NotificationCompat.Builder(context, "")
+                .setSmallIcon(R.drawable.ic_launcher_background) // notification icon
+                .setContentTitle(title) // title for notification
+                .setContentText(text) // message for notification
+                .setAutoCancel(true); // clear notification after click
+        Intent intent = new Intent(context, nextclass);
+        PendingIntent pi = PendingIntent.getActivity(context,0,intent,PendingIntent.FLAG_UPDATE_CURRENT);
+        mBuilder.setContentIntent(pi);
+        NotificationManager mNotificationManager =
+                (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
+        mNotificationManager.notify(0, mBuilder.build());
     }
 }

@@ -29,10 +29,33 @@
 
 
     <Button
-        android:id="@+id/btn_send_email"
+        android:id="@+id/btn_send_push"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Send Email!"
+        android:text="Send Push!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+       <Button
+        android:id="@+id/btn_camel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ConvertThis"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/btn_cut_me"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SPLIT-ME"
+        android:textAllCaps="false"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
