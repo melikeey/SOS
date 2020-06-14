@@ -21,4 +21,4 @@ utility'leri kullanabileceksiniz :
 
 
 
-Herhangi bir sıkıntıda iletişime geçmekten çekinmeyiniz. 
+Herhangi bir problemde lütfen issue açmaktan çekinmeyiniz. 
