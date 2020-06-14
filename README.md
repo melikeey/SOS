@@ -1,10 +1,15 @@
+
+![alt text](https://im.haberturk.com/2020/03/11/ver1583915850/2609960_87f666e88ebe2aa3873b3db8ccf52c79.jpg)
+
+
+
 # SOS
-This utility library
+Bu yardımcı bir kütüphanedir.
 
 
 ## SDK kullanımı 
 
-Bu kütüphane sizin kod yazarken ihtiyacınız olan tüm utility classları toplamayı hedeflemektedir
+Bu kütüphane sizin kod yazarken ihtiyacınız olan tüm yardımcı methodları toplamayı hedeflemektedir
 
 ## Kurulum
 
@@ -14,6 +19,11 @@ Kurulum için modülu bilgisayarınıza indirdikten sonra projenizde modülü im
 
 Kullanım oldukça basittir. app seviyesindeki build.gradle'a modülümüzü bağladıktan sonra SOS static class'ı yardımıyla 
 utility'leri kullanabileceksiniz : 
+
+Modülü bağlamak için build.gradle'a aşağıdaki kodu ekleyiniz; 
+     
+     implementation project(':sos')
+
 
 Örnek kullanım : 
 
