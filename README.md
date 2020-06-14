@@ -10,12 +10,12 @@ Bu yardımcı bir kütüphanedir.
 
 ## İçerik
 - [SOS](#sos)
-  * [SDK kullanımı](#sdk-kullan-m-)
+  * [Modül kullanımı](#sdk-kullan-m-)
   * [Kurulum](#kurulum)
   * [Kullanım](#kullan-m)
 
 
-## SDK kullanımı 
+## Modül kullanımı 
 
 Bu kütüphane sizin kod yazarken ihtiyacınız olan tüm yardımcı methodları toplamayı hedeflemektedir
 
